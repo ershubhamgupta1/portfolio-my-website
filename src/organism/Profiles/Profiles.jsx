@@ -1,5 +1,25 @@
 import React from 'react'
 
+const ProfileCard = (props)=>{
+    const {name, iconName} = props;
+    return (
+        <div className="col-sm-3">
+        <div className="single-profile">
+            <div className="profile-txt">
+                <a href=""><i className={iconName}></i></a>
+                <div className="profile-icon-name">{name}</div>
+            </div>
+            <div className="single-profile-overlay">
+                <div className="profile-txt">
+                    <a href=""><i className={iconName}></i></a>
+                    <div className="profile-icon-name">{name}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    )
+}
+
 const Profiles = () => {
   return (
 <section id="profiles" className="profiles">
@@ -10,121 +30,17 @@ const Profiles = () => {
 				<div className="container">
 					<div className="profiles-content">
 						<div className="row">
-							<div className="col-sm-3">
-								<div className="single-profile">
-									<div className="profile-txt">
-										<a href=""><i className="flaticon-themeforest"></i></a>
-										<div className="profile-icon-name">themeforest</div>
-									</div>
-									<div className="single-profile-overlay">
-										<div className="profile-txt">
-											<a href=""><i className="flaticon-themeforest"></i></a>
-											<div className="profile-icon-name">themeforest</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div className="col-sm-3">
-								<div className="single-profile">
-									<div className="profile-txt">
-										<a href=""><i className="flaticon-dribbble"></i></a>
-										<div className="profile-icon-name">dribbble</div>
-									</div>
-									<div className="single-profile-overlay">
-										<div className="profile-txt">
-											<a href=""><i className="flaticon-dribbble"></i></a>
-											<div className="profile-icon-name">dribbble</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div className="col-sm-3">
-								<div className="single-profile">
-									<div className="profile-txt">
-										<a href=""><i className="flaticon-behance-logo"></i></a>
-										<div className="profile-icon-name">behance</div>
-									</div>
-									<div className="single-profile-overlay">
-										<div className="profile-txt">
-											<a href=""><i className="flaticon-behance-logo"></i></a>
-											<div className="profile-icon-name">behance</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div className="col-sm-3">
-								<div className="single-profile profile-no-border">
-									<div className="profile-txt">
-										<a href=""><i className="flaticon-github-logo"></i></a>
-										<div className="profile-icon-name">github</div>
-									</div>
-									<div className="single-profile-overlay">
-										<div className="profile-txt">
-											<a href=""><i className="flaticon-github-logo"></i></a>
-											<div className="profile-icon-name">github</div>
-										</div>
-									</div>
-								</div>
-							</div>
+                            <ProfileCard name={'themeforest'} iconName='flaticon-themeforest' />
+                            <ProfileCard name={'dribbble'} iconName='flaticon-dribbble'/>
+                            <ProfileCard name={'behance'} iconName='flaticon-behance-logo' />
+                            <ProfileCard name={'github'} iconName='flaticon-github-logo' />
 						</div>
 						<div className="profile-border"></div>
 						<div className="row">
-							<div className="col-sm-3">
-								<div className="single-profile">
-									<div className="profile-txt">
-										<a href=""><i className="flaticon-flickr-website-logo-silhouette"></i></a>
-										<div className="profile-icon-name">flickR</div>
-									</div>
-									<div className="single-profile-overlay">
-										<div className="profile-txt">
-											<a href=""><i className="flaticon-flickr-website-logo-silhouette"></i></a>
-											<div className="profile-icon-name">flickR</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div className="col-sm-3">
-								<div className="single-profile">
-									<div className="profile-txt">
-										<a href=""><i className="flaticon-smug"></i></a>
-										<div className="profile-icon-name">smungMung</div>
-									</div>
-									<div className="single-profile-overlay">
-										<div className="profile-txt">
-											<a href=""><i className="flaticon-smug"></i></a>
-											<div className="profile-icon-name">smungMung</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div className="col-sm-3">
-								<div className="single-profile">
-									<div className="profile-txt">
-										<a href=""><i className="flaticon-squarespace-logo"></i></a>
-										<div className="profile-icon-name">squareSpace</div>
-									</div>
-									<div className="single-profile-overlay">
-										<div className="profile-txt">
-											<a href=""><i className="flaticon-squarespace-logo"></i></a>
-											<div className="profile-icon-name">squareSpace</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div className="col-sm-3">
-								<div className="single-profile profile-no-border">
-									<div className="profile-txt">
-										<a href=""><i className="flaticon-bitbucket-logotype-camera-lens-in-perspective"></i></a>
-										<div className="profile-icon-name">bitBucket</div>
-									</div>
-									<div className="single-profile-overlay">
-										<div className="profile-txt">
-											<a href=""><i className="flaticon-bitbucket-logotype-camera-lens-in-perspective"></i></a>
-											<div className="profile-icon-name">bitBucket</div>
-										</div>
-									</div>
-								</div>
-							</div>
+                            <ProfileCard name={'flickR'} iconName='flaticon-flickr-website-logo-silhouette' />
+                            <ProfileCard name={'smungMung'} iconName='flaticon-smug' />
+                            <ProfileCard name={'squareSpace'} iconName='flaticon-squarespace-logo' />
+                            <ProfileCard name={'bitBucket'} iconName='flaticon-bitbucket-logotype-camera-lens-in-perspective' />
 						</div>
 					</div>
 				</div>

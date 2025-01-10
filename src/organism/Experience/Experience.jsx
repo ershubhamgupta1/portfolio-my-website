@@ -1,5 +1,43 @@
-import React from 'react'
+import React from 'react';
 
+const data = [
+    {startYear:'2018', isPresent: true, designation: 'creative director', company: 'hoplony tech limited', location : 'newyork, USA', description: 'Duis aute irure dolor in reprehenderit in vol patate velit esse cillum dolore eu fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non proident. '},
+    {startYear:'2016', endYear: '2018', isPresent: false, designation: 'associate design director', company: 'hoplony tech limited', location : 'newyork, USA', description: 'Duis aute irure dolor in reprehenderit in vol patate velit esse cillum dolore eu fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non proident. '},
+    {startYear:'2013', endYear: '2016', isPresent: false, designation: 'associate design director', company: 'hoplony tech limited', location : 'newyork, USA', description: 'Duis aute irure dolor in reprehenderit in vol patate velit esse cillum dolore eu fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non proident. '},
+    {startYear:'2012', endYear: '2013', isPresent: false, designation: 'associate design director', company: 'hoplony tech limited', location : 'newyork, USA', description: 'Duis aute irure dolor in reprehenderit in vol patate velit esse cillum dolore eu fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non proident. '},
+    {startYear:'2010', endYear: '2012', isPresent: false, designation: 'associate design director', company: 'hoplony tech limited', location : 'newyork, USA', description: 'Duis aute irure dolor in reprehenderit in vol patate velit esse cillum dolore eu fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non proident. '},
+
+];
+
+const ExperienceCard = (props)=>{
+  const {startYear, endYear, isPresent, designation, company, location, description} = props;
+  return (
+    <li>
+    <div className="single-timeline-box fix">
+        <div className="row">
+            <div className="col-md-5">
+                <div className="experience-time text-right">
+                    <h2>{startYear} - {isPresent? 'Present': endYear} </h2>
+                    <h3>{designation}</h3>
+                </div>
+            </div>
+            <div className="col-md-offset-1 col-md-5">
+                <div className="timeline">
+                    <div className="timeline-content">
+                        <h4 className="title">
+                            <span><i className="fa fa-circle" aria-hidden="true"></i></span>
+                            {company}
+                        </h4>
+                        <h5>{location}</h5>
+                        <p className="description">{description}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</li>
+  )  
+};
 const Experience = () => {
   return (
 <section id="experience" className="experience">
@@ -10,163 +48,13 @@ const Experience = () => {
 				<div className="experience-content">
 						<div className="main-timeline">
 							<ul>
-								<li>
-									<div className="single-timeline-box fix">
-										<div className="row">
-											<div className="col-md-5">
-												<div className="experience-time text-right">
-													<h2>2018 - Present</h2>
-													<h3>creative director</h3>
-												</div>
-											</div>
-											<div className="col-md-offset-1 col-md-5">
-												<div className="timeline">
-													<div className="timeline-content">
-														<h4 className="title">
-															<span><i className="fa fa-circle" aria-hidden="true"></i></span>
-															hoplony tech limited
-														</h4>
-														<h5>newyork, USA</h5>
-														<p className="description">
-															Duis aute irure dolor in reprehenderit in vol patate velit esse cillum dolore eu fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non proident. 
-														</p>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</li>
-
-								<li>
-									<div className="single-timeline-box fix">
-										<div className="row">
-											<div className="col-md-offset-1 col-md-5 experience-time-responsive">
-												<div className="experience-time">
-													<h2>
-														<span><i className="fa fa-circle" aria-hidden="true"></i></span>
-														2016 - 2018
-													</h2>
-													<h3>associate design director</h3>
-												</div>
-											</div>
-											<div className="col-md-5">
-												<div className="timeline">
-													<div className="timeline-content text-right">
-														<h4 className="title">
-															hoplony tech limited
-														</h4>
-														<h5>newyork, USA</h5>
-														<p className="description">
-															Duis aute irure dolor in reprehenderit in vol patate velit esse cillum dolore eu fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non proident. 
-														</p>
-													</div>
-												</div>
-											</div>
-											<div className="col-md-offset-1 col-md-5 experience-time-main">
-												<div className="experience-time">
-													<h2>
-														<span><i className="fa fa-circle" aria-hidden="true"></i></span>
-														2016 - 2018
-													</h2>
-													<h3>associate design director</h3>
-												</div>
-											</div>
-										</div>
-									</div>
-								</li>
-
-								<li>
-									<div className="single-timeline-box fix">
-										<div className="row">
-											<div className="col-md-5">
-												<div className="experience-time text-right">
-													<h2>2013 - 2016</h2>
-													<h3>senior UI/UX designer</h3>
-												</div>
-											</div>
-											<div className="col-md-offset-1 col-md-5">
-												<div className="timeline">
-													<div className="timeline-content">
-														<h4 className="title">
-															<span><i className="fa fa-circle" aria-hidden="true"></i></span>
-															hoplony tech limited
-														</h4>
-														<h5>newyork, USA</h5>
-														<p className="description">
-															Duis aute irure dolor in reprehenderit in vol patate velit esse cillum dolore eu fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non proident. 
-														</p>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</li>
-
-								<li>
-									<div className="single-timeline-box fix">
-										<div className="row">
-											<div className="col-md-offset-1 col-md-5 experience-time-responsive">
-												<div className="experience-time">
-													<h2>
-														<span><i className="fa fa-circle" aria-hidden="true"></i></span>
-														2012 - 2013
-													</h2>
-													<h3>UI/UX designer</h3>
-												</div>
-											</div>
-											<div className="col-md-5">
-												<div className="timeline">
-													<div className="timeline-content text-right">
-														<h4 className="title">
-															hoplony tech limited
-														</h4>
-														<h5>newyork, USA</h5>
-														<p className="description">
-															Duis aute irure dolor in reprehenderit in vol patate velit esse cillum dolore eu fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non proident. 
-														</p>
-													</div>
-												</div>
-											</div>
-											<div className="col-md-offset-1 col-md-5 experience-time-main">
-												<div className="experience-time">
-													<h2>
-														<span><i className="fa fa-circle" aria-hidden="true"></i></span>
-														2012 - 2013
-													</h2>
-													<h3>UI/UX designer</h3>
-												</div>
-											</div>
-										</div>
-									</div>
-								</li>
-
-								<li>
-									<div className="single-timeline-box fix">
-										<div className="row">
-											<div className="col-md-5">
-												<div className="experience-time text-right">
-													<h2>2010 - 2012</h2>
-													<h3>frontend developer</h3>
-												</div>
-											</div>
-											<div className="col-md-offset-1 col-md-5">
-												<div className="timeline">
-													<div className="timeline-content">
-														<h4 className="title">
-															<span><i className="fa fa-circle" aria-hidden="true"></i></span>
-															hoplony tech limited
-														</h4>
-														<h5>newyork, USA</h5>
-														<p className="description">
-															Duis aute irure dolor in reprehenderit in vol patate velit esse cillum dolore eu fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non proident. 
-														</p>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</li>
-
+                                {
+                                    data.map((expObj, i)=>{
+                                        return (
+                                            <ExperienceCard key={i} {...expObj} />
+                                        )
+                                    })
+                                }
 							</ul>
 						</div>
 					</div>

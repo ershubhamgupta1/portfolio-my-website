@@ -1,5 +1,31 @@
 import React from 'react'
 import ProgressBar from 'react-bootstrap/ProgressBar';
+
+const data = [
+    {skill: 'adobe photoshop', ratingOutOfTen: 9},
+    {skill: 'html 5', ratingOutOfTen: 9},
+    {skill: 'css 3 animation', ratingOutOfTen: 8.5},
+    {skill: 'communication', ratingOutOfTen: 9.7},
+    {skill: 'creativity', ratingOutOfTen: 9},
+    {skill: 'adobe illustrator', ratingOutOfTen: 8.5},
+    {skill: 'adobe after effects', ratingOutOfTen: 9.7},
+    {skill: 'sketch', ratingOutOfTen: 9},
+];
+
+const SkillCard = (props)=>{
+    const {skill, ratingOutOfTen} = props;
+    return (
+        <div className="barWrapper">
+        <span className="progressText">{skill}</span>
+        <div className="single-progress-txt">
+            <ProgressBar now={ratingOutOfTen*10} />
+            <h3>{ratingOutOfTen*10}%</h3>	
+        </div>
+    </div>
+
+    )
+}
+
 const Skills = () => {
   return (
 <section id="skills" className="skills">
@@ -11,66 +37,16 @@ const Skills = () => {
 						<div className="row">
 							<div className="col-md-6">
 								<div className="single-skill-content">
-									<div className="barWrapper">
-										<span className="progressText">adobe photoshop</span>
-										<div className="single-progress-txt">
-                                            <ProgressBar now={60} />
-											<h3>90%</h3>	
-										</div>
-									</div>
-									<div className="barWrapper">
-										<span className="progressText">adobe illustrator</span>
-										<div className="single-progress-txt">
-                                            <ProgressBar now={60} />
-											<h3>85%</h3>	
-										</div>
-									</div>
-									<div className="barWrapper">
-										<span className="progressText">adobe after effects</span>
-										<div className="single-progress-txt">
-                                            <ProgressBar now={60} />
-											<h3>97%</h3>	
-										</div>
-									</div>
-									<div className="barWrapper">
-										<span className="progressText">sketch</span>
-										<div className="single-progress-txt">
-                                            <ProgressBar now={60} />
-											<h3>90%</h3>	
-										</div>
-									</div>
+                                    {data.slice(0, 4).map((item, index) => (
+                                        <SkillCard key={index} {...item} />
+                                    ))}
 								</div>
 							</div>
 							<div className="col-md-6">
 								<div className="single-skill-content">
-									<div className="barWrapper">
-										<span className="progressText">html 5</span>
-										<div className="single-progress-txt">
-                                            <ProgressBar now={60} />
-											<h3>90%</h3>	
-										</div>
-									</div>
-									<div className="barWrapper">
-										<span className="progressText">css 3 animation</span>
-										<div className="single-progress-txt">
-                                            <ProgressBar now={85} />
-											<h3>85%</h3>	
-										</div>
-									</div>
-									<div className="barWrapper">
-										<span className="progressText">communication</span>
-										<div className="single-progress-txt">
-                                            <ProgressBar now={97} />
-											<h3>97%</h3>	
-										</div>
-									</div>
-									<div className="barWrapper">
-										<span className="progressText"> creativity</span>
-										<div className="single-progress-txt">
-                                            <ProgressBar now={90} />
-											<h3>90%</h3>	
-										</div>
-									</div>
+                                    {data.slice(4, 8).map((item, index) => (
+                                        <SkillCard key={index} {...item} />
+                                    ))}
 								</div>
 							</div>
 						</div>
