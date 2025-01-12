@@ -23,7 +23,7 @@ const productOwlCarouselOptions = {
                 items:4
             },
             1200:{
-                items:7
+                items:4
             }
         }
 }
@@ -37,66 +37,70 @@ const Clients = () => {
 			<div className="clients-area">
 				<div className="container">
                 <OwlCarousel options={productOwlCarouselOptions} className="owl-carousel owl-theme" id="client">
-                <div className="item">
-							<a href="#">
-								<img src="/assets/images/clients/c1.png" alt="brand-image" />
+                        <div className="item">
+							<a href="#aaa">
+                                <span><b>Banking and Financial Services</b></span>
+								{/* <img src="/assets/images/clients/c1.png" alt="brand-image" /> */}
 							</a>
 						</div>
 						<div className="item">
-							<a href="#">
-								<img src="assets/images/clients/c2.png" alt="brand-image" />
+							<a href="#aaa">
+                                <span><b>Manufacturing and Supply Chain</b></span>
+								{/* <img src="assets/images/clients/c1.png" alt="brand-image" /> */}
 							</a>
 						</div>
 						<div className="item">
-							<a href="#">
-								<img src="assets/images/clients/c3.png" alt="brand-image" />
+							<a href="#bbb">
+                                <span><b>Retail and E-commerce</b></span>
+								{/* <img src="assets/images/clients/c3.png" alt="brand-image" /> */}
 							</a>
 						</div>
 						<div className="item">
-							<a href="#">
-								<img src="assets/images/clients/c4.png" alt="brand-image" />
+							<a href="#bbbb">
+                                <span><b>Healthcare and Pharmaceuticals</b></span>
+								{/* <img src="assets/images/clients/c4.png" alt="brand-image" /> */}
 							</a>
 						</div>
-						<div className="item">
-							<a href="#">
+						{/* <div className="item">
+							<a href="#bbbb">
 								<img src="assets/images/clients/c5.png" alt="brand-image" />
 							</a>
 						</div>
 						<div className="item">
-							<a href="#">
+							<a href="#bbb">
 								<img src="assets/images/clients/c6.png" alt="brand-image" />
 							</a>
 						</div>
 						<div className="item">
-							<a href="#">
+							<a href="#bbb">
 								<img src="assets/images/clients/c7.png" alt="brand-image" />
 							</a>
 						</div>
 						<div className="item">
-							<a href="#">
+							<a href="#bbb">
 								<img src="assets/images/clients/c5.png" alt="brand-image" />
 							</a>
 						</div>
 						<div className="item">
-							<a href="#">
+							<a href="#bbb">
 								<img src="assets/images/clients/c6.png" alt="brand-image" />
 							</a>
 						</div>
 						<div className="item">
-							<a href="#">
+							<a href="#bbb">
 								<img src="assets/images/clients/c7.png" alt="brand-image" />
 							</a>
 						</div>
 						<div className="item">
-							<a href="#">
+							<a href="#bbb">
 								<img src="assets/images/clients/c6.png" alt="brand-image" />
 							</a>
 						</div>
 						<div className="item">
-							<a href="#">
+							<a href="#bbb">
 								<img src="assets/images/clients/c7.png" alt="brand-image" />
 							</a>
-						</div>
+						</div> */}
                 </OwlCarousel>
 				</div>
 			</div>

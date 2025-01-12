@@ -2,18 +2,18 @@ import React from 'react'
 import ProgressBar from 'react-bootstrap/ProgressBar';
 
 const data = [
-    {skill: 'adobe photoshop', ratingOutOfTen: 9},
-    {skill: 'html 5', ratingOutOfTen: 9},
-    {skill: 'css 3 animation', ratingOutOfTen: 8.5},
-    {skill: 'communication', ratingOutOfTen: 9.7},
-    {skill: 'creativity', ratingOutOfTen: 9},
-    {skill: 'adobe illustrator', ratingOutOfTen: 8.5},
-    {skill: 'adobe after effects', ratingOutOfTen: 9.7},
-    {skill: 'sketch', ratingOutOfTen: 9},
+    {id: 1, skill: 'SAP', ratingOutOfTen: 9},
+    {id: 2, skill: 'Budgeting & Forecasting', ratingOutOfTen: 9},
+    {id: 3, skill: 'Cash & Bank management', ratingOutOfTen: 8.5},
+    {id: 4, skill: 'MS excel', ratingOutOfTen: 9.7},
+    {id: 5, skill: 'Accounting & Book-keeping', ratingOutOfTen: 9},
+    {id: 6, skill: 'Analytical skills', ratingOutOfTen: 8.5},
+    {id: 7, skill: 'Hyperion', ratingOutOfTen: 9.7},
+    {id: 8, skill: 'Tally ERP9', ratingOutOfTen: 9},
 ];
 
 const SkillCard = (props)=>{
-    const {skill, ratingOutOfTen} = props;
+    const {skill, ratingOutOfTen} = props || {};
     return (
         <div className="barWrapper">
         <span className="progressText">{skill}</span>
@@ -37,15 +37,15 @@ const Skills = () => {
 						<div className="row">
 							<div className="col-md-6">
 								<div className="single-skill-content">
-                                    {data.slice(0, 4).map((item, index) => (
-                                        <SkillCard key={index} {...item} />
+                                    {data.slice(0, 4).map((item) => (
+                                        <SkillCard key={item.id} {...item} />
                                     ))}
 								</div>
 							</div>
 							<div className="col-md-6">
 								<div className="single-skill-content">
-                                    {data.slice(4, 8).map((item, index) => (
-                                        <SkillCard key={index} {...item} />
+                                    {data.slice(4, 8).map((item) => (
+                                        <SkillCard key={item.id} {...item} />
                                     ))}
 								</div>
 							</div>

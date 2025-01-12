@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from './organism/Header/Header';
 import Hero from './organism/Hero/Hero';
@@ -45,7 +44,6 @@ function App() {
   useEffect(() => {
     $('li.smooth-menu a').bind('click', function (event) {
       event.preventDefault();
-      var anchor = $(this);
       const anchorHref = event.target.getAttribute('href'); // Get the href value
       const targetElement = document.querySelector(anchorHref); // Find the target element
       if (targetElement) {
@@ -71,8 +69,8 @@ function App() {
     <Education />
     <Skills />
     <Experience />
-    <Profiles />
-    <Portfolio />
+    {/* <Profiles />
+    <Portfolio /> */}
     <Clients />
     <Contact />
     <Footer />

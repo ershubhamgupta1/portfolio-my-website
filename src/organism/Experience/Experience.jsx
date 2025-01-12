@@ -1,16 +1,16 @@
 import React from 'react';
 
 const data = [
-    {startYear:'2018', isPresent: true, designation: 'creative director', company: 'hoplony tech limited', location : 'newyork, USA', description: 'Duis aute irure dolor in reprehenderit in vol patate velit esse cillum dolore eu fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non proident. '},
-    {startYear:'2016', endYear: '2018', isPresent: false, designation: 'associate design director', company: 'hoplony tech limited', location : 'newyork, USA', description: 'Duis aute irure dolor in reprehenderit in vol patate velit esse cillum dolore eu fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non proident. '},
-    {startYear:'2013', endYear: '2016', isPresent: false, designation: 'associate design director', company: 'hoplony tech limited', location : 'newyork, USA', description: 'Duis aute irure dolor in reprehenderit in vol patate velit esse cillum dolore eu fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non proident. '},
-    {startYear:'2012', endYear: '2013', isPresent: false, designation: 'associate design director', company: 'hoplony tech limited', location : 'newyork, USA', description: 'Duis aute irure dolor in reprehenderit in vol patate velit esse cillum dolore eu fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non proident. '},
-    {startYear:'2010', endYear: '2012', isPresent: false, designation: 'associate design director', company: 'hoplony tech limited', location : 'newyork, USA', description: 'Duis aute irure dolor in reprehenderit in vol patate velit esse cillum dolore eu fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non proident. '},
+    {id: 1, startYear:'2021', isPresent: true, designation: 'Assistant Manager', company: 'Genpact India Pvt. Ltd', location : 'Noida, India', description: 'I manage monthly cash flow forecasts, variance analysis, and working capital projections while monitoring bank funds and handling FX deals. My responsibilities include SAP accounting tasks like posting transactions (F-02, F-05), managing dividends, royalties, loan payments, and bank reconciliations. I also interact with clients, banks, and auditors to ensure smooth financial operations and compliance.'},
+    {id: 2, startYear:'2014', endYear: '2016', isPresent: false, designation: 'Article Assistant', company: 'Atul K Garg & Company', location : 'Delhi, India', description: 'I have gained extensive experience in audits, including tax audits, internal audits, concurrent audits, and statutory audits. My responsibilities also include preparing Form 15CA and 15CB, filing income tax and TDS returns for companies and individuals, finalizing books of accounts, and preparing balance sheets with notes to accounts. Additionally, I analyze draft financial statements prepared by clients to ensure accurate accounting and adequate expense provisioning.'},
+    {id: 3, startYear:'2013', endYear: '2014', isPresent: false, designation: ' Article Assistant', company: 'Sanjay Vibha & Associates', location : 'Delhi, India', description: 'I have gained experience in internal audits, statutory audit. My work includes preparing Form 15CA and 15CB, filing income tax and TDS returns for companies and individuals, finalizing books of accounts, and preparing balance sheets with notes to accounts. I am also skilled in creating PowerPoint presentations to effectively communicate financial insights.'},
+    // {id: 4, startYear:'2012', endYear: '2013', isPresent: false, designation: 'associate design director', company: 'hoplony tech limited', location : 'newyork, USA', description: 'Duis aute irure dolor in reprehenderit in vol patate velit esse cillum dolore eu fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non proident. '},
+    // {id: 5, startYear:'2010', endYear: '2012', isPresent: false, designation: 'associate design director', company: 'hoplony tech limited', location : 'newyork, USA', description: 'Duis aute irure dolor in reprehenderit in vol patate velit esse cillum dolore eu fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non proident. '},
 
 ];
 
 const ExperienceCard = (props)=>{
-  const {startYear, endYear, isPresent, designation, company, location, description} = props;
+  const {startYear, endYear, isPresent, designation, company, location, description} = props || {};
   return (
     <li>
     <div className="single-timeline-box fix">
@@ -49,9 +49,9 @@ const Experience = () => {
 						<div className="main-timeline">
 							<ul>
                                 {
-                                    data.map((expObj, i)=>{
+                                    data.map((expObj)=>{
                                         return (
-                                            <ExperienceCard key={i} {...expObj} />
+                                            <ExperienceCard key={expObj.id} {...expObj} />
                                         )
                                     })
                                 }

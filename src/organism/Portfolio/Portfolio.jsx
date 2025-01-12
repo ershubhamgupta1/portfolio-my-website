@@ -14,17 +14,17 @@ const Portfolio = () => {
 
 								<div className="col-sm-4">
 									<div className="item">
-										<img src="assets/images/portfolio/p1.jpg" alt="portfolio image"/>
+										<img src="assets/images/portfolio/p1.jpg" alt="UI/UX design portfolio example"/>
 										<div className="isotope-overlay">
-											<a href="#">
+											<a href="https://github.com/ershubhamgupta1">
 												ui/ux design
 											</a>
 										</div>
 									</div>
 									<div className="item">
-										<img src="assets/images/portfolio/p2.jpg" alt="portfolio image"/>
+										<img src="assets/images/portfolio/p2.jpg" alt="UI/UX design portfolio example"/>
 										<div className="isotope-overlay">
-											<a href="#">
+											<a href="https://github.com/ershubhamgupta1">
 												ui/ux design
 											</a>
 										</div>
@@ -33,9 +33,9 @@ const Portfolio = () => {
 
 								<div className="col-sm-4">
 									<div className="item">
-										<img src="assets/images/portfolio/p3.jpg" alt="portfolio image"/>
+										<img src="assets/images/portfolio/p3.jpg" alt="web design portfolio example"/>
 										<div className="isotope-overlay">
-											<a href="#">
+											<a href="https://github.com/ershubhamgupta1">
 												web design
 											</a>
 										</div>
@@ -44,17 +44,17 @@ const Portfolio = () => {
 
 								<div className="col-sm-4">
 									<div className="item">
-										<img src="assets/images/portfolio/p4.jpg" alt="portfolio image"/>
+										<img src="assets/images/portfolio/p4.jpg" alt="web developent portfolio example"/>
 										<div className="isotope-overlay">
-											<a href="#">
+											<a href="https://github.com/ershubhamgupta1">
 												web development
 											</a>
 										</div>
 									</div>
 									<div className="item">
-										<img src="assets/images/portfolio/p5.jpg" alt="portfolio image"/>
+										<img src="assets/images/portfolio/p5.jpg" alt="web developent portfolio example"/>
 										<div className="isotope-overlay">
-											<a href="#">
+											<a href="https://github.com/ershubhamgupta1">
 												web development
 											</a>
 										</div>

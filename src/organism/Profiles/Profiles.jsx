@@ -1,17 +1,17 @@
 import React from 'react'
 
 const ProfileCard = (props)=>{
-    const {name, iconName} = props;
+    const {name, iconName, link} = props || {};
     return (
         <div className="col-sm-3">
         <div className="single-profile">
             <div className="profile-txt">
-                <a href=""><i className={iconName}></i></a>
+                <a href={link}><i className={iconName}></i></a>
                 <div className="profile-icon-name">{name}</div>
             </div>
             <div className="single-profile-overlay">
                 <div className="profile-txt">
-                    <a href=""><i className={iconName}></i></a>
+                    <a href={link}><i className={iconName}></i></a>
                     <div className="profile-icon-name">{name}</div>
                 </div>
             </div>
@@ -30,17 +30,18 @@ const Profiles = () => {
 				<div className="container">
 					<div className="profiles-content">
 						<div className="row">
-                            <ProfileCard name={'themeforest'} iconName='flaticon-themeforest' />
-                            <ProfileCard name={'dribbble'} iconName='flaticon-dribbble'/>
-                            <ProfileCard name={'behance'} iconName='flaticon-behance-logo' />
-                            <ProfileCard name={'github'} iconName='flaticon-github-logo' />
+                            
+                            <ProfileCard name={'themeforest'} link={'https://www.linkedin.com/in/shubham-mern-stack-dev'} iconName='flaticon-themeforest' />
+                            <ProfileCard name={'dribbble'} link={'https://www.linkedin.com/in/shubham-mern-stack-dev'} iconName='flaticon-dribbble'/>
+                            <ProfileCard name={'behance'} link={'https://www.linkedin.com/in/shubham-mern-stack-dev'} iconName='flaticon-behance-logo' />
+                            <ProfileCard name={'github'} link={'https://github.com/ershubhamgupta1'} iconName='flaticon-github-logo' />
 						</div>
 						<div className="profile-border"></div>
 						<div className="row">
-                            <ProfileCard name={'flickR'} iconName='flaticon-flickr-website-logo-silhouette' />
-                            <ProfileCard name={'smungMung'} iconName='flaticon-smug' />
-                            <ProfileCard name={'squareSpace'} iconName='flaticon-squarespace-logo' />
-                            <ProfileCard name={'bitBucket'} iconName='flaticon-bitbucket-logotype-camera-lens-in-perspective' />
+                            <ProfileCard name={'flickR'} link={'https://www.linkedin.com/in/shubham-mern-stack-dev'} iconName='flaticon-flickr-website-logo-silhouette' />
+                            <ProfileCard name={'smungMung'} link={'https://www.linkedin.com/in/shubham-mern-stack-dev'} iconName='flaticon-smug' />
+                            <ProfileCard name={'squareSpace'} link={'https://www.linkedin.com/in/shubham-mern-stack-dev'} iconName='flaticon-squarespace-logo' />
+                            <ProfileCard name={'bitBucket'} link={'https://www.linkedin.com/in/shubham-mern-stack-dev'} iconName='flaticon-bitbucket-logotype-camera-lens-in-perspective' />
 						</div>
 					</div>
 				</div>

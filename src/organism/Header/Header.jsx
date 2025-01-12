@@ -13,7 +13,7 @@ const Header = () => {
 			                <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
 			                    <i className="fa fa-bars"></i>
 			                </button>
-			                <a className="navbar-brand" href="index.html">browny</a>
+			                <a className="navbar-brand" href="index.html">CA Madhuri</a>
 			            </div>
 
 			            <div className="collapse navbar-collapse menu-ui-design" id="navbar-menu">
@@ -22,8 +22,8 @@ const Header = () => {
 			                    <li className=" smooth-menu"><a href="#education">education</a></li>
 			                    <li className="smooth-menu"><a href="#skills">skills</a></li>
 			                    <li className="smooth-menu"><a href="#experience">experience</a></li>
-			                    <li className="smooth-menu"><a href="#profiles">profile</a></li>
-			                    <li className="smooth-menu"><a href="#portfolio">portfolio</a></li>
+			                    {/* <li className="smooth-menu"><a href="#profiles">profile</a></li>
+			                    <li className="smooth-menu"><a href="#portfolio">portfolio</a></li> */}
 			                    <li className="smooth-menu"><a href="#clients">clients</a></li>
 			                    <li className="smooth-menu"><a href="#contact">contact</a></li>
 			                </ul>
