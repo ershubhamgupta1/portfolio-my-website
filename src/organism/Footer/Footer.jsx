@@ -6,7 +6,7 @@ const Footer = () => {
 			<div className="container">
 				<div className="hm-footer-copyright text-center">
 					<p>
-						&copy; copyright yourname. design and developed by <a href="https://www.themesine.com/">themesine</a>
+						&copy; copyright madhuri. design and developed by <a href="https://www.madhuri.com/">CA Madhuri</a>
 					</p>
 				</div>
 			</div>

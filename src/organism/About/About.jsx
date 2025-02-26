@@ -45,24 +45,24 @@ const About = () => {
                         <div className="about-list-icon">
                             <ul>
                                 <li>
-                                    <a href="https://www.facebook.com/madhuri.bansal.395">
+                                    <a href="https://www.facebook.com">
                                         <i  className="fa fa-facebook" aria-hidden="true"></i>
                                     </a>
                                 </li>
-                                <li>
+                                {/* <li>
                                     <a href="https://www.linkedin.com/in/ca-madhuri-bansal-03760a10b/">
                                         <i  className="fa fa-dribbble" aria-hidden="true"></i>
                                     </a>
                                     
-                                </li>
+                                </li> */}
                                 <li>
-                                    <a href="https://twitter.com">
+                                    <a href="https://x.com/?mx=2">
                                         <i  className="fa fa-twitter" aria-hidden="true"></i>
                                     </a>
                                     
                                 </li>
                                 <li>
-                                    <a href="https://linkedin.com/in/shubham-mern-stack-dev">
+                                    <a href="https://www.linkedin.com/in/ca-madhuri-bansal-03760a10b/">
                                         <i  className="fa fa-linkedin" aria-hidden="true"></i>
                                     </a>
                                 </li>
