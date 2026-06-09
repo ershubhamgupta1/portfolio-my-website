@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from './organism/Header/Header';
 import Hero from './organism/Hero/Hero';
@@ -8,7 +7,6 @@ import Skills from './organism/Skills/Skills';
 import Experience from './organism/Experience/Experience';
 import Profiles from './organism/Profiles/Profiles';
 import Portfolio from './organism/Portfolio/Portfolio';
-import Clients from './organism/Clients/Clients';
 import Contact from './organism/Contacts/Contact';
 import Footer from './organism/Footer/Footer';
 import { useEffect } from 'react';
@@ -45,7 +43,6 @@ function App() {
   useEffect(() => {
     $('li.smooth-menu a').bind('click', function (event) {
       event.preventDefault();
-      var anchor = $(this);
       const anchorHref = event.target.getAttribute('href'); // Get the href value
       const targetElement = document.querySelector(anchorHref); // Find the target element
       if (targetElement) {

@@ -6,12 +6,12 @@ const ProfileCard = (props)=>{
         <div className="col-sm-3">
         <div className="single-profile">
             <div className="profile-txt">
-                <a href=""><i className={iconName}></i></a>
+                <a href="/"><i className={iconName}></i></a>
                 <div className="profile-icon-name">{name}</div>
             </div>
             <div className="single-profile-overlay">
                 <div className="profile-txt">
-                    <a href=""><i className={iconName}></i></a>
+                    <a href="/"><i className={iconName}></i></a>
                     <div className="profile-icon-name">{name}</div>
                 </div>
             </div>

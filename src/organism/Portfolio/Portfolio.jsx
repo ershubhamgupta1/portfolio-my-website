@@ -14,17 +14,17 @@ const Portfolio = () => {
 
 								<div className="col-sm-4">
 									<div className="item">
-										<img src="assets/images/portfolio/1780996994059.jpeg" alt="portfolio image"/>
+										<img src="assets/images/portfolio/1780996994059.jpeg" alt="Agentic App"/>
 										<div className="isotope-overlay">
-											<a href="#">
+											<a href="/">
 												Agentic App
 											</a>
 										</div>
 									</div>
 									<div className="item">
-										<img src="assets/images/portfolio/folinko-app.png" alt="portfolio image"/>
+										<img src="assets/images/portfolio/folinko-app.png" alt="ui/ux design"/>
 										<div className="isotope-overlay">
-											<a href="#">
+											<a href="/">
 												ui/ux design
 											</a>
 										</div>
@@ -33,9 +33,9 @@ const Portfolio = () => {
 
 								<div className="col-sm-4 padding-0">
 									<div className="item">
-										<img className='transform-img'  src="assets/images/portfolio/folinko-store-detail.png" alt="portfolio image"/>
+										<img className='transform-img'  src="assets/images/portfolio/folinko-store-detail.png" alt="Mobile App UI/UX"/>
 										<div className="isotope-overlay">
-											<a href="#">
+											<a href="/">
 												Mobile App UI/UX
 											</a>
 										</div>
@@ -44,17 +44,17 @@ const Portfolio = () => {
 
 								<div className="col-sm-4">
 									<div className="item">
-										<img src="assets/images/portfolio/petshop-ss-1.png" alt="portfolio image"/>
+										<img src="assets/images/portfolio/petshop-ss-1.png" alt="pet shop"/>
 										<div className="isotope-overlay">
-											<a href="#">
+											<a href="/">
 												UI/UX
 											</a>
 										</div>
 									</div>
 									<div className="item">
-										<img src="assets/images/portfolio/folinko-business-app.png" alt="portfolio image"/>
+										<img src="assets/images/portfolio/folinko-business-app.png" alt="web development"/>
 										<div className="isotope-overlay">
-											<a href="#">
+											<a href="/">
 												web development
 											</a>
 										</div>

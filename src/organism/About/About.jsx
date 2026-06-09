@@ -45,24 +45,24 @@ const About = () => {
                         <div className="about-list-icon">
                             <ul>
                                 <li>
-                                    <a href="https://www.facebook.com/shubhamgupta49160" target="_blank">
+                                    <a href="https://www.facebook.com/shubhamgupta49160" target="_blank" rel="noopener noreferrer">
                                         <i  className="fa fa-facebook" aria-hidden="true"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://github.com/ershubhamgupta1" target="_blank">
+                                    <a href="https://github.com/ershubhamgupta1" target="_blank" rel="noopener noreferrer">
                                         <i  className="fa fa-dribbble" aria-hidden="true"></i>
                                     </a>
                                     
                                 </li>
                                 <li>
-                                    <a href="https://github.com/ershubhamgupta1" target="_blank">
+                                    <a href="https://github.com/ershubhamgupta1" target="_blank" rel="noopener noreferrer">
                                         <i  className="fa fa-github" aria-hidden="true"></i>
                                     </a>
                                     
                                 </li>
                                 <li>
-                                    <a href="https://www.linkedin.com/in/shubham-gupta-3280a4123/" target="_blank">
+                                    <a href="https://www.linkedin.com/in/shubham-gupta-3280a4123/" target="_blank" rel="noopener noreferrer">
                                         <i  className="fa fa-linkedin" aria-hidden="true"></i>
                                     </a>
                                 </li>

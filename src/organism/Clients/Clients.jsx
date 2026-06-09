@@ -38,62 +38,62 @@ const Clients = () => {
 				<div className="container">
                 <OwlCarousel options={productOwlCarouselOptions} className="owl-carousel owl-theme" id="client">
                 <div className="item">
-							<a href="#">
+							<a href="/">
 								<img src="/assets/images/clients/c1.png" alt="brand-image" />
 							</a>
 						</div>
 						<div className="item">
-							<a href="#">
+							<a href="/">
 								<img src="assets/images/clients/c2.png" alt="brand-image" />
 							</a>
 						</div>
 						<div className="item">
-							<a href="#">
+							<a href="/">
 								<img src="assets/images/clients/c3.png" alt="brand-image" />
 							</a>
 						</div>
 						<div className="item">
-							<a href="#">
+							<a href="/">
 								<img src="assets/images/clients/c4.png" alt="brand-image" />
 							</a>
 						</div>
 						<div className="item">
-							<a href="#">
+							<a href="/">
 								<img src="assets/images/clients/c5.png" alt="brand-image" />
 							</a>
 						</div>
 						<div className="item">
-							<a href="#">
+							<a href="/">
 								<img src="assets/images/clients/c6.png" alt="brand-image" />
 							</a>
 						</div>
 						<div className="item">
-							<a href="#">
+							<a href="/">
 								<img src="assets/images/clients/c7.png" alt="brand-image" />
 							</a>
 						</div>
 						<div className="item">
-							<a href="#">
+							<a href="/">
 								<img src="assets/images/clients/c5.png" alt="brand-image" />
 							</a>
 						</div>
 						<div className="item">
-							<a href="#">
+							<a href="/">
 								<img src="assets/images/clients/c6.png" alt="brand-image" />
 							</a>
 						</div>
 						<div className="item">
-							<a href="#">
+							<a href="/">
 								<img src="assets/images/clients/c7.png" alt="brand-image" />
 							</a>
 						</div>
 						<div className="item">
-							<a href="#">
+							<a href="/">
 								<img src="assets/images/clients/c6.png" alt="brand-image" />
 							</a>
 						</div>
 						<div className="item">
-							<a href="#">
+							<a href="/">
 								<img src="assets/images/clients/c7.png" alt="brand-image" />
 							</a>
 						</div>
