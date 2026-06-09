@@ -73,7 +73,7 @@ function App() {
     <Experience />
     <Profiles />
     <Portfolio />
-    <Clients />
+    {/* <Clients /> */}
     <Contact />
     <Footer />
     </>
