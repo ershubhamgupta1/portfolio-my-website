@@ -12,63 +12,58 @@ const About = () => {
                 <div className="col-sm-6">
                     <div className="single-about-txt">
                         <h3>
-                            I am a Professional UI/UX Designer and Web developer. Consectetur an adipisi elita, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud.
+                            I'm a Senior Frontend Engineer and AI Application Developer specializing in React, Next.js, TypeScript, and scalable web solutions.
                         </h3>
                         <p>
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspi unde omnis iste natus error sit voluptatem accusantium doloremque lauda ntium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam vo luptatem quia voluptas sit aspernatur aut odit aut fugit,
+                            I am a Full Stack Engineer with 11+ years of experience building scalable, high-performance web applications and enterprise solutions. My expertise includes React.js, Next.js, Node.js, TypeScript, and Azure Cloud. I have led development teams, designed enterprise-grade architectures, and delivered products across Healthcare, Finance, Media, and Real Estate domains. Passionate about clean code, performance optimization, and modern software design, I focus on creating intuitive user experiences and robust backend systems. Recently, I have been building AI-powered applications, RAG systems, and intelligent platforms that leverage Large Language Models to solve real-world business challenges.
                         </p>
                         <div className="row">
-                            <div className="col-sm-4">
+                            <div className="col-sm-6 single-about-add-info-container">
                                 <div className="single-about-add-info">
                                     <h3>phone</h3>
-                                    <p>987-123-6547</p>
+                                    <p>+91-90501-49160</p>
                                 </div>
                             </div>
-                            <div className="col-sm-4">
+                            <div className="col-sm-6 single-about-add-info-container">
                                 <div className="single-about-add-info">
                                     <h3>email</h3>
-                                    <p>browny@info.com</p>
+                                    <p>ershubhamgupta1@gmail.com</p>
                                 </div>
                             </div>
-                            <div className="col-sm-4">
+                            {/* <div className="col-sm-4 single-about-add-info-container">
                                 <div className="single-about-add-info">
                                     <h3>website</h3>
-                                    <p>www.brownsine.com</p>
+                                    <p>www.shubhamgupta.com</p>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
                 <div className="col-sm-offset-1 col-sm-5">
                     <div className="single-about-img">
-                        <img src="assets/images/about/profile_image.jpg" alt="profile_image" />
+                        <img src="assets/images/about/profile-pic.png" alt="profile_image" />
                         <div className="about-list-icon">
                             <ul>
                                 <li>
-                                    <a href="#">
+                                    <a href="https://www.facebook.com/shubhamgupta49160" target="_blank">
                                         <i  className="fa fa-facebook" aria-hidden="true"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#">
+                                    <a href="https://github.com/ershubhamgupta1" target="_blank">
                                         <i  className="fa fa-dribbble" aria-hidden="true"></i>
                                     </a>
                                     
                                 </li>
                                 <li>
-                                    <a href="#">
-                                        <i  className="fa fa-twitter" aria-hidden="true"></i>
+                                    <a href="https://github.com/ershubhamgupta1" target="_blank">
+                                        <i  className="fa fa-github" aria-hidden="true"></i>
                                     </a>
                                     
                                 </li>
                                 <li>
-                                    <a href="#">
+                                    <a href="https://www.linkedin.com/in/shubham-gupta-3280a4123/" target="_blank">
                                         <i  className="fa fa-linkedin" aria-hidden="true"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i  className="fa fa-instagram" aria-hidden="true"></i>
                                     </a>
                                 </li>
                             </ul>

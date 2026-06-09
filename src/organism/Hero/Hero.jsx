@@ -7,9 +7,9 @@ const Hero = () => {
 				<div className="row">
 					<div className="col-md-12 text-center">
 						<div className="header-text">
-							<h2>hi <span>,</span> i am <br/> browny <br/> star <span>.</span>   </h2>
-							<p>ui/ux designer and web developer</p>
-							<a href="assets/download/browney.txt" download>download resume</a>
+							<h2>hi <span>,</span> i am <br/> Shubham    </h2>
+							<p>App Specialist</p>
+							<a href="assets/download/My-CV.pdf" download>Download CV</a>
 						</div>
 					</div>
 				</div>

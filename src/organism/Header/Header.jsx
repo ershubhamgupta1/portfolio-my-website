@@ -13,7 +13,7 @@ const Header = () => {
 			                <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
 			                    <i className="fa fa-bars"></i>
 			                </button>
-			                <a className="navbar-brand" href="index.html">browny</a>
+			                <a className="navbar-brand" href="index.html">Shubham</a>
 			            </div>
 
 			            <div className="collapse navbar-collapse menu-ui-design" id="navbar-menu">

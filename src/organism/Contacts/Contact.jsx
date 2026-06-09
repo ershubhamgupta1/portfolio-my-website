@@ -54,21 +54,21 @@ const Contact = () => {
 							<div className="single-contact-box">
 								<div className="contact-adress">
 									<div className="contact-add-head">
-										<h3>browny star</h3>
-										<p>uI/uX designer</p>
+										<h3>Shubham Gupta</h3>
+										<p>Web Developer</p>
 									</div>
 									<div className="contact-add-info">
 										<div className="single-contact-add-info">
 											<h3>phone</h3>
-											<p>987-123-6547</p>
+											<p>+91-90501-49160</p>
 										</div>
 										<div className="single-contact-add-info">
 											<h3>email</h3>
-											<p>browny@info.com</p>
+											<p>ershubhamgupta1@gmail.com</p>
 										</div>
 										<div className="single-contact-add-info">
 											<h3>website</h3>
-											<p>www.brownsine.com</p>
+											<p>www.shubhamgupta.com</p>
 										</div>
 									</div>
 								</div>

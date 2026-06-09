@@ -1,9 +1,9 @@
 import React from 'react'
 
 const data = [
-    {startYear: 2008, endYear : 2010, degree: 'master of computer science', university: 'university of north carolina', location:'north carolina, USA', description: 'Duis aute irure dolor in reprehenderit in vol patate velit esse cillum dolore eu fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non proident. '},
-    {startYear: 2008, endYear : 2010, degree: 'master of computer science', university: 'university of north carolina', location:'north carolina, USA', description: 'Duis aute irure dolor in reprehenderit in vol patate velit esse cillum dolore eu fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non proident. '},
-    {startYear: 2008, endYear : 2010, degree: 'master of computer science', university: 'university of north carolina', location:'north carolina, USA', description: 'Duis aute irure dolor in reprehenderit in vol patate velit esse cillum dolore eu fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non proident. '},
+    {startYear: 2012, endYear : 2014, degree: 'master of computer science', university: 'Kurukshetra University, Kurukshetra', location:'Kurukshetra, India', description: 'Advanced my expertise in software engineering, system design, data structures, algorithms, and enterprise application development. Worked on complex software projects while strengthening analytical and technical skills. The program enhanced my ability to design scalable solutions and prepared me for building modern, high-performance applications.'},
+    {startYear: 2009, endYear : 2012, degree: 'Bachelor of computer science', university: 'Kurukshetra University, Kurukshetra', location:'Kurukshetra, India', description: 'Built a strong foundation in computer science, software development, database management, and web technologies. Developed problem-solving and programming skills through academic projects involving C, C++, JavaScript, SQL, and web development fundamentals. Gained practical experience in software engineering principles and application development. '},
+    // {startYear: 2008, endYear : 2010, degree: 'master of computer science', university: 'university of north carolina', location:'north carolina, USA', description: 'Duis aute irure dolor in reprehenderit in vol patate velit esse cillum dolore eu fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non proident. '},
 ]
 
 const EducationCard = (props)=>{

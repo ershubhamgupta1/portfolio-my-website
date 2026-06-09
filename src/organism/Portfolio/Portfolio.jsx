@@ -14,15 +14,15 @@ const Portfolio = () => {
 
 								<div className="col-sm-4">
 									<div className="item">
-										<img src="assets/images/portfolio/p1.jpg" alt="portfolio image"/>
+										<img src="assets/images/portfolio/1780996994059.jpeg" alt="portfolio image"/>
 										<div className="isotope-overlay">
 											<a href="#">
-												ui/ux design
+												Agentic App
 											</a>
 										</div>
 									</div>
 									<div className="item">
-										<img src="assets/images/portfolio/p2.jpg" alt="portfolio image"/>
+										<img src="assets/images/portfolio/folinko-app.png" alt="portfolio image"/>
 										<div className="isotope-overlay">
 											<a href="#">
 												ui/ux design
@@ -31,12 +31,12 @@ const Portfolio = () => {
 									</div>
 								</div>
 
-								<div className="col-sm-4">
+								<div className="col-sm-4 padding-0">
 									<div className="item">
-										<img src="assets/images/portfolio/p3.jpg" alt="portfolio image"/>
+										<img className='transform-img'  src="assets/images/portfolio/folinko-store-detail.png" alt="portfolio image"/>
 										<div className="isotope-overlay">
 											<a href="#">
-												web design
+												Mobile App UI/UX
 											</a>
 										</div>
 									</div>
@@ -44,15 +44,15 @@ const Portfolio = () => {
 
 								<div className="col-sm-4">
 									<div className="item">
-										<img src="assets/images/portfolio/p4.jpg" alt="portfolio image"/>
+										<img src="assets/images/portfolio/petshop-ss-1.png" alt="portfolio image"/>
 										<div className="isotope-overlay">
 											<a href="#">
-												web development
+												UI/UX
 											</a>
 										</div>
 									</div>
 									<div className="item">
-										<img src="assets/images/portfolio/p5.jpg" alt="portfolio image"/>
+										<img src="assets/images/portfolio/folinko-business-app.png" alt="portfolio image"/>
 										<div className="isotope-overlay">
 											<a href="#">
 												web development

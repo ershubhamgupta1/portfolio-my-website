@@ -2,14 +2,17 @@ import React from 'react'
 import ProgressBar from 'react-bootstrap/ProgressBar';
 
 const data = [
-    {skill: 'adobe photoshop', ratingOutOfTen: 9},
+    {skill: 'Javascript', ratingOutOfTen: 9},
+    {skill: 'ReactJs', ratingOutOfTen: 9},
     {skill: 'html 5', ratingOutOfTen: 9},
-    {skill: 'css 3 animation', ratingOutOfTen: 8.5},
+    {skill: 'css', ratingOutOfTen: 8.5},
+    {skill: 'NodeJs', ratingOutOfTen: 9},
+    {skill: 'AI', ratingOutOfTen: 8},
+    {skill: 'System Design', ratingOutOfTen: 9},
+    {skill: 'AWS/Azure', ratingOutOfTen: 8.5},
+    {skill: 'Leadership', ratingOutOfTen: 9},
     {skill: 'communication', ratingOutOfTen: 9.7},
-    {skill: 'creativity', ratingOutOfTen: 9},
-    {skill: 'adobe illustrator', ratingOutOfTen: 8.5},
-    {skill: 'adobe after effects', ratingOutOfTen: 9.7},
-    {skill: 'sketch', ratingOutOfTen: 9},
+
 ];
 
 const SkillCard = (props)=>{
@@ -37,14 +40,14 @@ const Skills = () => {
 						<div className="row">
 							<div className="col-md-6">
 								<div className="single-skill-content">
-                                    {data.slice(0, 4).map((item, index) => (
+                                    {data.slice(0, 5).map((item, index) => (
                                         <SkillCard key={index} {...item} />
                                     ))}
 								</div>
 							</div>
 							<div className="col-md-6">
 								<div className="single-skill-content">
-                                    {data.slice(4, 8).map((item, index) => (
+                                    {data.slice(5, 10).map((item, index) => (
                                         <SkillCard key={index} {...item} />
                                     ))}
 								</div>
