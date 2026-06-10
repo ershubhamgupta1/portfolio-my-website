@@ -94,7 +94,7 @@ return (
 										<div className="row">
 											<div className="col-sm-12">
 												<div className="single-contact-btn">
-													<button className="contact-btn" href="/" type="submit" role="button">submit</button>
+													<button className="contact-btn" type="submit">submit</button>
 												</div>
 											</div>
 										</div>
