@@ -752,6 +752,10 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     border: 1px solid #9f00ff;
     box-shadow: 0 5px 20px rgba(0,0,0,.2);
 }
+.contact-btn {
+    height: 100%;
+    width: 100%;
+}
 
 /*--contct button--*/
 
